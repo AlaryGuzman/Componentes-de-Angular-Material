@@ -3,6 +3,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 
 @Component({
+   standalone: true,
   selector: 'app-divider',
   imports: [MatListModule, MatDividerModule],
   changeDetection: ChangeDetectionStrategy.OnPush,

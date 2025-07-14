@@ -22,9 +22,10 @@ import { BottomSheetOverviewExample, BottomSheetOverviewExampleSheet } from './b
 
 @Component({
   selector: 'app-root',
+   standalone: true,
   imports: [Autocomplete, Badge, Buttom, AlternarBoton, Tarjeta, CheckBox, Chips, Datepicker, Dialog, Divider, ExpansionPanel, FormField, GridList, Icon, Input, List, MatInputEmailComponent, BottomSheetOverviewExample,BottomSheetOverviewExampleSheet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 
 })
 export class App {

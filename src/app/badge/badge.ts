@@ -4,6 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatBadgeModule } from '@angular/material/badge';
 
 @Component({
+   standalone: true,
   selector: 'app-badge',
   imports: [MatBadgeModule, MatButtonModule, MatIconModule],
   templateUrl: './badge.html',

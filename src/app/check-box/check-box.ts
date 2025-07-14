@@ -5,6 +5,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 
 @Component({
+   standalone: true,
   selector: 'app-check-box',
   imports: [MatCardModule, MatCheckboxModule, FormsModule, MatRadioModule],
   changeDetection: ChangeDetectionStrategy.OnPush,

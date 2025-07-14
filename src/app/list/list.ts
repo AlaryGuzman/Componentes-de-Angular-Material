@@ -10,6 +10,7 @@ export interface Section {
 } 
 
 @Component({
+   standalone: true,
   selector: 'app-list',
   imports: [MatListModule, MatIconModule, MatDividerModule, DatePipe],
   templateUrl: './list.html',

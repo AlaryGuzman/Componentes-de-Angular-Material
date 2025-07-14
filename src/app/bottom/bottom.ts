@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
  * @title Bottom Sheet Overview
  */
 @Component({
+   standalone: true,
   selector: 'app-bottom-sheet-overview-example',
   templateUrl: './bottom-sheet-overview-example.html',
   imports: [MatButtonModule, MatBottomSheetModule],

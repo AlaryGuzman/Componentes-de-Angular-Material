@@ -3,6 +3,8 @@ import { MatIconModule } from '@angular/material/icon';
 
 
 @Component({
+   
+   standalone: true,
   selector: 'app-icon',
   imports: [MatIconModule],
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
+  
   selector: 'app-mat-input-email',
   standalone: true,
   imports: [

@@ -8,6 +8,7 @@ import { MatListModule, MatNavList } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
+   standalone: true,
   selector: 'bottom-sheet',
   imports: [MatButtonModule, MatBottomSheetModule, MatNavList],
   templateUrl: './bottom-sheets.html',

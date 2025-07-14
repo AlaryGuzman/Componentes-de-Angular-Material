@@ -10,6 +10,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 @Component({
+   standalone: true,
   selector: 'app-autocomplete',
   templateUrl: './autocomplete.html',
   styleUrl: './autocomplete.css',

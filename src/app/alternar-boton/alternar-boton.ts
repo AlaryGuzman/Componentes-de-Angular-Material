@@ -3,6 +3,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @Component({
+   standalone: true,
   selector: 'app-alternar-boton',
   templateUrl: './alternar-boton.html',
   styleUrl: './alternar-boton.css',

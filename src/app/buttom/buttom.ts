@@ -4,6 +4,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 
 @Component({
+   standalone: true,
   selector: 'app-buttom',
   imports: [MatButtonModule, MatDividerModule, MatIconModule],
   templateUrl: './buttom.html',

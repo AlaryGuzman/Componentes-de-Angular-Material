@@ -4,6 +4,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule} from '@angular/forms';
 
 @Component({
+   standalone: true,
   selector: 'app-input',
   imports: [FormsModule, MatFormFieldModule, MatInputModule],
   templateUrl: './input.html',

@@ -18,6 +18,7 @@ export interface DialogData {
   name: string;
 }
 @Component({
+   standalone: true,
   selector: 'app-dialog',
   imports: [MatFormFieldModule, MatInputModule, FormsModule, MatButtonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,

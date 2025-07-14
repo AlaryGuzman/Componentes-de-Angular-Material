@@ -8,6 +8,7 @@ export interface Tile {
   text: string;
 }
 @Component({
+   standalone: true,
   selector: 'app-grid-list',
   imports: [MatGridListModule],
   templateUrl: './grid-list.html',
