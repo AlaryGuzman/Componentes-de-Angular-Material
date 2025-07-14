@@ -22,8 +22,8 @@ import { BottomSheetOverviewExample, BottomSheetOverviewExampleSheet } from './b
 
 @Component({
   selector: 'app-root',
-   standalone: true,
-  imports: [Autocomplete, Badge, Buttom, AlternarBoton, Tarjeta, CheckBox, Chips, Datepicker, Dialog, Divider, ExpansionPanel, FormField, GridList, Icon, Input, List, MatInputEmailComponent, BottomSheetOverviewExample,BottomSheetOverviewExampleSheet],
+  standalone: true,
+  imports: [Autocomplete, Badge, Buttom, AlternarBoton, Tarjeta, CheckBox, Chips, Datepicker, Dialog, Divider, ExpansionPanel, FormField, GridList, Icon, Input, List, MatInputEmailComponent, BottomSheetOverviewExample],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 
